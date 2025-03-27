@@ -9,9 +9,6 @@ import os
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 
-# login to cloudinary and get your key from here - https://console.cloudinary.com/pm/c-a8f7a41e4832cf677e6d5fe5a83cff/getting-started
-
-
 # Configure Cloudinary
 cloudinary.config(
     cloud_name="dadte3zyj",
@@ -21,7 +18,7 @@ cloudinary.config(
 )
 
 # Streamlit app for recoloring items using Cloudinary's Generative Recolor
-st.title("Image Item Recoloring with Cloudinary's Generative Recolor")
+st.title("Image Item Recolor")
 
 # Upload image
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
