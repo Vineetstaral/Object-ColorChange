@@ -14,9 +14,9 @@ logging.basicConfig(level=logging.INFO)
 
 # Configure Cloudinary
 cloudinary.config(
-    cloud_name="your_cloud",
-    api_key="your_api",
-    api_secret="your_secret",
+    cloud_name="dadte3zyj",
+    api_key="181162474429649",
+    api_secret="3bp3ircop1nGbrvAWgrdZDwVY28",
     secure=True
 )
 
